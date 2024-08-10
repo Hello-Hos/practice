@@ -1,19 +1,38 @@
-h1{
-    color: red;
-}
-p{
-    color: rgb(204, 18, 49);
-}
-body{
-    background-color: rgb(58, 71, 71);
-}
-button{
-    background-color: rgb(255, 255, 0);
-}
-button{
-    color: blue;
+.traffic-light{
+    margin-bottom: 10px;
+    /* height: 300px; */
+    width: 100px;
+    border: 30px;
+    border-style:solid;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
 }
 
-.one{
-    color: aqua;
+.red{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-color: red;
+    background-color: red;
+
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-color: yellow;
+    background-color: yellow;
+
+}
+.green{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-color: green;
+    background-color: green;
+
 }
